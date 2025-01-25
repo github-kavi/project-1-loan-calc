@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+#topbar{
+    background-color:white;
+    color: black;
+    width: 80%;
+    height: 70px;
+    margin: 0px auto;
+    display:flex;
+    justify-content: space-around;
+    border: 1px solid white;
+}
+#topbar h3{
+    padding: 10px;
+}
+#condainer{
+    background-color: rgb(245, 244, 240);
+    color:black;
+    width: 90%;
+    height:1050px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+#header{
+    background-color:#1c1e53 ;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#header img {
+  height: 60px;
+  width: 160px;
+}
+.bar a i{
+   color: white;
+   font-size: 30px;
+   display: none;
+}
+ .drop li{
+    display: inline;
+    margin-left: 80px;
+}
+#header ul li a{
+    color: white;
+    font-size: 22px;
+}
+#header ul li a button{
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+#header ul li a:hover{
+    color:hwb(24 0% 0%)
+}
+
+#banner h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+#banner{
+    text-align: center;
+    border-top: 3px solid white;
+}
+#lamound{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+}
+
+#lamound1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+}
+
+#lamound2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+}
+.slider{
+    -webkit-appearance: none;
+    width: 50%;
+    height: 7px;
+    background-color:#1c1e53;
+    border-radius: 5px;
+    outline: none;
+    opacity:0.7s;
+    transition: opacity .2s;
+}
+.slider:hover{
+    opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #1c1e53;
+    cursor: pointer;
+}
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 21px;
+    background-color:hsla(0, 60%, 95%, 0.99);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.footer{
+    padding: 30px;
+    font-size: 30px;
+    word-spacing: 9px;
+    text-align: start;
+}
+
+h3{
+    font-size: 25px;
+}
+
+span{
+    font-size: 25px;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.slider-container {
+    margin: 20px 0;
+}
+.slider-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+.results {
+    margin: 90px 0;
+}
+#myPieChart {
+    max-width: 300px;
+    max-height: 300px;
+}
+.flex-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    margin-top: 50px;
+}
+#demo1{
+    border: 2px solid black;
+    padding: 10px;
+}
+#demo2{
+    border: 2px solid black;
+   padding: 10px;
+}
+#demo3{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+@media all and (max-width:1100px){
+    #topbar{
+        display: none;
+    }
+    #header img{
+        width: 100px;
+        height: 50px;
+    }
+
+    
+    #banner h1{
+        font-size: 25px;
+    }
+
+    #lamound{
+        display: block;
+        margin-top: 50px;
+    }
+    #lamound1{
+        display:block;
+        margin-top: 40px;
+    }
+    #lamound2{
+        display:block;
+    }
+    .sk{
+        margin-top: 70px;
+    }
+    h3{
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+    .flex-one{
+      display: block;
+    margin: auto;
+    width: 50%;
+      
+    }
+    #condainer{
+        height: 1325px;
+    }
+    .footer{
+        width: 100%;
+        margin-top: 100px;
+        font-size: 25px;
+        padding: 1px;
+        text-align: center;
+    }
+    .dropdown1 .drop{
+        display: none;
+        background-color:#1c1e53 ;
+        box-shadow: 2px 2px 5px white;
+        position: absolute;
+        margin: 0px auto;
+        width:90%;
+        left:0;
+        top: 80px;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        height: 350px;
+    }
+    .drop li{
+        padding: 30px;
+        display: inline;
+        margin-left: 0px;
+    }
+
+    .dropdown1:hover .drop{
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        text-align: center;
+
+    }
+    .bar a i{
+        color: white;
+        font-size: 30px;
+        display:block;
+     }
+     #header{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+     }
+
+
+}
